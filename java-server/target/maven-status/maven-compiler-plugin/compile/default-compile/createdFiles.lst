@@ -16,6 +16,7 @@ com/grpc/hello/HelloResponseOrBuilder.class
 com/grpc/hello/MultilingualGreeterGrpc$MultilingualGreeterMethodDescriptorSupplier.class
 com/grpc/hello/HelloRequestOrBuilder.class
 com/grpc/hello/MultilingualGreeterGrpc$MultilingualGreeterBaseDescriptorSupplier.class
+com/grpc/hello/server/MultilingualGreeterImpl$2$1.class
 com/grpc/hello/MultilingualGreeterGrpc$MethodHandlers.class
 com/grpc/hello/MultilingualGreeterGrpc$MultilingualGreeterBlockingStub.class
 com/grpc/hello/MultilingualGreeterGrpc.class
