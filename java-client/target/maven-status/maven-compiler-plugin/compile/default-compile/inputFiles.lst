@@ -1,7 +1,7 @@
-C:\gRPC-HelloWorld\java-client\src\main\java\com\grpc\hello\client\HelloWorldClient.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\grpc-java\com\grpc\hello\MultilingualGreeterGrpc.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\java\com\grpc\hello\HelloRequest.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\java\com\grpc\hello\HelloRequestOrBuilder.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\java\com\grpc\hello\HelloResponse.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\java\com\grpc\hello\HelloResponseOrBuilder.java
-C:\gRPC-HelloWorld\java-client\target\generated-sources\protobuf\java\com\grpc\hello\HelloWorldProto.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/java/com/grpc/hello/HelloResponse.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/java/com/grpc/hello/HelloRequestOrBuilder.java
+/home/safsaf/gRPC-HelloWorld/java-client/src/main/java/com/grpc/hello/client/HelloWorldClient.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/java/com/grpc/hello/HelloWorldProto.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/grpc-java/com/grpc/hello/MultilingualGreeterGrpc.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/java/com/grpc/hello/HelloRequest.java
+/home/safsaf/gRPC-HelloWorld/java-client/target/generated-sources/protobuf/java/com/grpc/hello/HelloResponseOrBuilder.java
