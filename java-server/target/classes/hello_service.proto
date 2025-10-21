@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.grpc.hello";
+option java_outer_classname = "HelloWorldProto";
+option objc_class_prefix = "HLW";
+option py_generic_services = true;
+
+package hello;
+
+// The greeting service definition.
+service MultilingualGreeter {
+  // Unary RPC - Simple request/response
+  rpc SayHello (HelloRequest) returns (HelloResponse) {}
+
+  // Server streaming RPC - Server sends multiple responses
+  rpc SayHellosServerStreaming (HelloRequest) returns (stream HelloResponse) {}
+  
+  // Client streaming RPC - Client sends multiple requests
+  rpc SayHellosClientStreaming (stream HelloRequest) returns (HelloResponse) {}
+  
+  // Bidirectional streaming RPC - Both sides send a sequence of messages
+  rpc SayHellosBidirectional (stream HelloRequest) returns (stream HelloResponse) {}
+}
+
+// The request message containing user information
+message HelloRequest {
+  string first_name = 1;
+  string last_name = 2;
+  // Language code: en (English), fr (French), ar (Arabic)
+  string language_code = 3;
+}
+
+// The response message containing the greeting
+message HelloResponse {
+  string greeting = 1;
+}
